@@ -1,0 +1,53 @@
+.watermark {
+    position: absolute;
+    width: 75px;
+    bottom: 65px;
+    right: 60px;
+}
+
+#discordlink {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-family: 'Allan';
+    font-size: 22px;
+    animation: colour-change 9s infinite;
+}
+
+@keyframes colour-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+#mainhud {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    width: 120px;
+    height: 30px;
+    bottom: 140px;
+    left: 325px;
+    opacity: 100;
+    outline-style: solid;
+    outline-style: 1px;
+}
+
+#vehiclehud {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    width: 130px;
+    height: 100px;
+    bottom: 70px;
+    left: 325px;
+    opacity: 0;
+    outline-style: solid;
+    outline-style: 1px;
+}
