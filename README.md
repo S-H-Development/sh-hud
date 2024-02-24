@@ -1,19 +1,11 @@
 # sh-hud
 Simple FiveM Hud Resource
 
-**A nice simple HUD for your FiveM Server that displays**
+**A nice simple vehicle HUD for your FiveM Server that displays**
 
-**On Foot :**
-ID 
-Direction 
-
-**When in vehicle :** 
-ID 
-Plate
 MPH
 Gear
 Fuel 
-Direction
 
 **Includes Watermark logo**
 **Includes RGB Server Title**
